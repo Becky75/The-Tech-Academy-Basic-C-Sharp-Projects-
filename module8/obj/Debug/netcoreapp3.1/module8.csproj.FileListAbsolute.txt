@@ -1,0 +1,14 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.deps.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.runtimeconfig.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.runtimeconfig.dev.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\bin\Debug\netcoreapp3.1\module8.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.AssemblyInfoInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.AssemblyInfo.cs
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\module8\obj\Debug\netcoreapp3.1\module8.genruntimeconfig.cache
