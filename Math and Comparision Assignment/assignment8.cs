@@ -6,7 +6,7 @@ namespace Math_and_Comparision_Assignment
     {
         static void Main(string[] args)
         {
-         //prints title first
+            //prints title first
 
             string txt = "Anonymous Income Comparision Program";
             Console.WriteLine(txt);
@@ -16,7 +16,7 @@ namespace Math_and_Comparision_Assignment
             // will print to screen "Annual salary of person1" and write the exact salary below it 
 
             string person1 = "Person1";
-            
+
             string hourlyRate1 = "Hourly Rate?";
 
             int HR1 = Convert.ToInt32(Console.ReadLine());
@@ -29,8 +29,8 @@ namespace Math_and_Comparision_Assignment
             string annual = "Annual salary of person1" + total1;
 
 
-         //person2 , hourly rate and per hours/week
-         // will print to screen "Annual salary of person1" and write the exact salary below it 
+            //person2 , hourly rate and per hours/week
+            // will print to screen "Annual salary of person1" and write the exact salary below it 
             string person2 = "Person2";
 
             string hourlyRate2 = "Hourly Rate?";
@@ -48,10 +48,11 @@ namespace Math_and_Comparision_Assignment
 
             //then print "person1 makes more money than person2" true or false value
 
-            bool trueOrFalse = addition1 > addition2;
+            bool trueOrFalse = total1 > total2;
             Console.WriteLine(trueOrFalse.ToString());
             Console.ReadLine();
 
+        }
 
         }
     }
