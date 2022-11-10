@@ -28,6 +28,7 @@ namespace Math_and_Comparision_Assignment
 
             string annual = "Annual salary of person1" + total1;
 
+            Console.WriteLine(annual);
 
             //person2 , hourly rate and per hours/week
             // will print to screen "Annual salary of person1" and write the exact salary below it 
@@ -43,6 +44,7 @@ namespace Math_and_Comparision_Assignment
             Console.WriteLine(total2);
 
             string annual2 = "Annual salary of person1" + total2;
+            Console.WriteLine(annual2);
             Console.ReadLine();
 
 
