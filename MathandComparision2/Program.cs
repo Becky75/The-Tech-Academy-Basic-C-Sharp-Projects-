@@ -46,6 +46,7 @@ namespace Math_and_Comparision_Assignment
 
             //then print "person1 makes more money than person2" true or false value
 
+            Console.WriteLine("Does person1 make more then person2?");
             bool trueOrFalse = total1 > total2;
             Console.WriteLine(trueOrFalse);
             Console.ReadLine();
