@@ -1,0 +1,7 @@
+C:\Users\alpac\source\repos\whileloop\obj\Debug\whileloop.csproj.AssemblyReference.cache
+C:\Users\alpac\source\repos\whileloop\obj\Debug\whileloop.csproj.CoreCompileInputs.cache
+C:\Users\alpac\source\repos\whileloop\bin\Debug\whileloop.exe.config
+C:\Users\alpac\source\repos\whileloop\bin\Debug\whileloop.exe
+C:\Users\alpac\source\repos\whileloop\bin\Debug\whileloop.pdb
+C:\Users\alpac\source\repos\whileloop\obj\Debug\whileloop.exe
+C:\Users\alpac\source\repos\whileloop\obj\Debug\whileloop.pdb
