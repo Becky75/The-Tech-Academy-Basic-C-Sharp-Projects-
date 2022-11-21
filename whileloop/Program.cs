@@ -60,8 +60,13 @@ namespace whileloop
                 }
             }
             while (!guess);
-
-                        Console.Read();
+            int a = 0;
+            while (a > 5)
+            {
+                Console.WriteLine(a);
+                a++;
+            }
+            Console.Read();
             
         }
     }
