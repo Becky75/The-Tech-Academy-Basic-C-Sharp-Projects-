@@ -1,0 +1,14 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.deps.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.runtimeconfig.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.runtimeconfig.dev.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\bin\Debug\netcoreapp3.1\MathandComparision2.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.AssemblyInfoInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.AssemblyInfo.cs
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\MathandComparision2\obj\Debug\netcoreapp3.1\MathandComparision2.genruntimeconfig.cache

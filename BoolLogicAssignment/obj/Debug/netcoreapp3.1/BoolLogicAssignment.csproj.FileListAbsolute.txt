@@ -1,0 +1,14 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.AssemblyInfoInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.AssemblyInfo.cs
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.deps.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.runtimeconfig.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.runtimeconfig.dev.json
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\bin\Debug\netcoreapp3.1\BoolLogicAssignment.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\BoolLogicAssignment\obj\Debug\netcoreapp3.1\BoolLogicAssignment.genruntimeconfig.cache

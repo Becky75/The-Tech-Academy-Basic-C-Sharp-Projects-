@@ -1,0 +1,5 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Math and Comparision Assignment\obj\Debug\netcoreapp3.1\Math and Comparision Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Math and Comparision Assignment\obj\Debug\netcoreapp3.1\Math and Comparision Assignment.AssemblyInfoInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Math and Comparision Assignment\obj\Debug\netcoreapp3.1\Math and Comparision Assignment.AssemblyInfo.cs
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Math and Comparision Assignment\obj\Debug\netcoreapp3.1\Math and Comparision Assignment.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Math and Comparision Assignment\obj\Debug\netcoreapp3.1\Math and Comparision Assignment.csproj.AssemblyReference.cache
