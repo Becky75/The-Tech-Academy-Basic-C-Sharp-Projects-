@@ -29,13 +29,8 @@ namespace ArrayAssignment1
             //this is a string list
 
             List<string> intList = new List<string>();
-
             intList.Add("What a great number");
             intList.Add("that number isnt in the list,try again!");
-            // add varibale to ask for user in put,if index is less then zero or if index is greater then length minus 1
-            int Length = intList.Count;
-            if (Length <= )
-
 
             Console.WriteLine(intList[0]);
             Console.ReadLine();
