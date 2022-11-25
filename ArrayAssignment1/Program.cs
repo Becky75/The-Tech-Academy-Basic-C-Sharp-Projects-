@@ -10,9 +10,9 @@ namespace ArrayAssignment1
 
         {
             //Array list
-            string txt = "pick a number?, 35,40,12,11,10,20";
+            string txt = "pick a number?, between 0 and 5";
             Console.WriteLine(txt);
-            string num1 = Console.ReadLine();
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
             int[] numArray = new int[6];
             numArray[0] = 35;
@@ -22,7 +22,29 @@ namespace ArrayAssignment1
             numArray[4] = 10;
             numArray[5] = 20;
 
-            
+            if (num1 < 0 || num1 > 5)
+            {
+                Console.WriteLine("you didnt pick the right number");
+
+            }
+            else
+            {
+                Console.WriteLine("what a great number " + numArray[num1]);
+            }
+             string[]array = { "hi", "e", "d", "p", "m" };
+            Console.WriteLine("I pick from 0 to 4");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            if (num2 < 0 || num2 > 4)
+            {
+                Console.WriteLine("you didnt pick the right letter");
+
+            }
+            else
+            {
+                Console.WriteLine("what a great number" + array[num2]);
+            }
+
+
             Console.WriteLine();
             Console.ReadLine();
 
@@ -30,15 +52,27 @@ namespace ArrayAssignment1
 
             List<string> intList = new List<string>();
 
-            intList.Add("What a great number");
-            intList.Add("that number isnt in the list,try again!");
+            intList.Add("What a great day");
+            intList.Add("Try again");
+            intList.Add("Start over");
+
             // add varibale to ask for user in put,if index is less then zero or if index is greater then length minus 1
             int Length = intList.Count;
-            if (Length <= )
+            Console.WriteLine("pick a number from 0 -2");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            if (num3 < 0 || num3 > Length-1)
+            {
+                Console.WriteLine("you didnt pick the right number");
 
+            }
+            else
+            {
+                Console.WriteLine("what a great number" + intList[num3]);
+            }
 
-            Console.WriteLine(intList[0]);
             Console.ReadLine();
+
+            
 
             //int yournum = Console.ReadLine();
         }
