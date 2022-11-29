@@ -11,19 +11,30 @@ namespace sixPartAssignmant
             //this part1 in the six part assignment
             //one dimensional array of strings
 
-            string[] dogs = new string[5] { "Tonka", "Rude Roo", "Shooter", "Beau", "Sonresa" };
-            foreach(string name in dogs)
-                dogs[0] = "Tonka";
-                dogs[1] = "Rude Roo";
-                dogs[2] = "Shooter";
-                dogs[3] = "Beau";
-                dogs[4] = "Sonresa";
-                dogs[4] = "Sonresa";
+           string [] dogs = { "Tonka ", "Rude Roo ", "Shooter ", "Beau ", "Sonresa " };
+            //this is first loop
+            Console.WriteLine("Please enter some txt?");
+           
+            string cat = Console.ReadLine();
+
+            for (int i = 0; i < dogs.Length; i++)
+
             {
-                Console.WriteLine(dogs);
+
+                dogs[i] = dogs[i] + cat;
+                Console.WriteLine(dogs[i]);
+
             }
-       
-            Console.ReadLine();
+                Console.ReadLine();
+
+            //part2 this is an infintity loop
+             
+            while (true)
+            {
+                // this will br printed
+                Console.WriteLine("Got to love dogs");
+
+            }
+            }
         }
     }
-}
