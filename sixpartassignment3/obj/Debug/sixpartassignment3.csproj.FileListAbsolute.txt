@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\bin\Debug\sixpartassignment3.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\bin\Debug\sixpartassignment3.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\bin\Debug\sixpartassignment3.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\obj\Debug\sixpartassignment3.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\obj\Debug\sixpartassignment3.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\obj\Debug\sixpartassignment3.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment3\obj\Debug\sixpartassignment3.pdb
