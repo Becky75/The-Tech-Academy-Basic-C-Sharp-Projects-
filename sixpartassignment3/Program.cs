@@ -10,12 +10,13 @@ namespace sixpartassignment3
         {
             //this is part 4,a unqigue values
             List<string> homes = new List<string>()
-            {
-                "Rancher","Farm","Condo","Appartment","Two story","Barn"
-            };
+          { "Rancher","Farm","Condo","Appartment","Two story","Barn"};
+            for(int i=0; i< homes.Length ;i++ )
+
             {
                 Console.WriteLine(homes);
                     }
+            
             Console.ReadLine();
         }
     }
