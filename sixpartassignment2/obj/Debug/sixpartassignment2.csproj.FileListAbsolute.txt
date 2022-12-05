@@ -5,3 +5,4 @@ C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpart
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment2\obj\Debug\sixpartassignment2.exe
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment2\obj\Debug\sixpartassignment2.pdb
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment2\obj\Debug\sixpartassignment2.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixpartassignment2\obj\Debug\sixpartassignment2.csproj.SuggestedBindingRedirects.cache

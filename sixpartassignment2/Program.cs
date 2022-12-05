@@ -22,11 +22,23 @@ namespace sixpartassignment2
                 Console.WriteLine(b);
             }
             //part4 each item in the list is unque.
+            
+                List<string> animals= new List<string>{ "dog", "cat", "bird", "horse", "fish" };
+            Console.WriteLine("Pick an animal?");
+            string userinput = Console.ReadLine();
+            
+            for (int i = 0; i < animals.Count ; i++)
             {
-                int[] num = { 6, 3, 4, 8, 67, 12 };
-                Console.WriteLine(num[]);
+                if (animals[i] == userinput)
+                {
+                    Console.WriteLine("You picked" + animals[i]);
+                } 
+                else if (animals[i] != userinput )
+                        {
+                    Console.WriteLine("please pick from list ");
+                         }
             }
-            Console.ReadLine();
+
         }
     }
 }
