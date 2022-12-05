@@ -37,7 +37,27 @@ namespace sixpartassignment2
                         {
                     Console.WriteLine("please pick from list ");
                          }
-            }
+
+                //part 5 of part 6 assignment list string adn have teo identical strings the same
+                List<string> elements = new List<string> { "Fire", "Earth", "Wind", "Water", "Water" };
+                Console.WriteLine("pick an element?");
+                string user = Console.ReadLine();
+
+                
+                // this is a loop 
+
+                for (int j = 0; j < elements.Count; j++)
+                {
+                    if (elements[j] == user)
+                    {
+                        Console.WriteLine("there are 2 water elements");
+                    }
+                    else if (elements[j] != user)
+                    {
+                        Console.WriteLine(" try from the list");
+                    }
+                }
+            }       
 
         }
     }
