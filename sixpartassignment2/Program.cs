@@ -40,7 +40,12 @@ namespace sixpartassignment2
 
                 //part 5 of part 6 assignment list string adn have teo identical strings the same
                 List<string> elements = new List<string> { "Fire", "Earth", "Wind", "Water", "Water" };
-                Console.WriteLine("pick an element?");
+               foreach(string name in elements)
+                {
+                    Console.WriteLine(name);
+                }
+
+                    Console.WriteLine("pick an element?");
                 string user = Console.ReadLine();
 
                 
@@ -56,6 +61,7 @@ namespace sixpartassignment2
                     {
                         Console.WriteLine(" try from the list");
                     }
+                    Console.ReadLine();
                 }
             }       
 
