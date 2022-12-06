@@ -8,6 +8,12 @@ namespace String_and_Integers_Assignment
     {
         static void Main(string[] args)
         {
+
+            List<int> numbers = new List<int> (new int[]{"6","7", "8","10"};
+            Console.WriteLine(numbers);
+
+
+
             try
             {
                 Console.WriteLine("pick a number?");

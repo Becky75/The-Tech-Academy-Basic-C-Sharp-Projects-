@@ -47,7 +47,7 @@ namespace sixpartassignment2
 
                     Console.WriteLine("pick an element?");
                 string user = Console.ReadLine();
-
+                Console.WriteLine(elements[j]);
                 
                 // this is a loop 
 
