@@ -55,7 +55,7 @@ namespace sixpartassignment2
                 {
                     if (elements[j] == user)
                     {
-                        Console.WriteLine("there are 2 water elements");
+                        Console.WriteLine(user + " is found at indew " + j);
                     }
                     else if (elements[j] != user)
                     {
