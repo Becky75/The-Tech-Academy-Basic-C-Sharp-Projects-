@@ -13,14 +13,14 @@ namespace Consoleassignment_module3
             { 
                 int[] num1 = { 8, 4, 9 };
 
-                for (int i= 0; i < num1.Length; i++)
+                foreach (int i= 0; i < num1.Length; i++)
                 {
                 Console.WriteLine("choose a numbers 8,4,9");
                 int num1 = Convert.ToInt32(Console.ReadLine());
-                int num2 = Convert.ToInt32(Console.ReadLine(2)); 
+                int num2 = Convert.ToInt32(Console.ReadLine()); 
                 Console.WriteLine("now to divide the two....");
                 int num3 = num1 / num2;
-                Console.WriteLine(num1 + " divide by " + num2 + " equals ");
+                Console.WriteLine(num1 + " divide by " + num2 + " equals " + num3);
                 Console.ReadLine();
             }
 
