@@ -30,7 +30,9 @@ namespace game21
                 TempList.Add(deck.Cards[randomIndex]);
                 deck.Cards.RemoveAt(randomIndex);
             }
+           
             deck.Cards = TempList;
+            return deck;
         }
     }
 }

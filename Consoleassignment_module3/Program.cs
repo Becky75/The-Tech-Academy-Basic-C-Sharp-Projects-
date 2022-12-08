@@ -7,21 +7,18 @@ namespace Consoleassignment_module3
     {
         static void Main(string[] args)
         {
-                //Console.WriteLine(8, 16, 24);
-                //Console.WriteLine(Convert.ToInt32)
+            //Console.WriteLine(8, 16, 24);
+            //Console.WriteLine(Convert.ToInt32)
             try
-            { 
-                int[] num1 = { 8, 4, 9 };
-
-                foreach (int i= 0; i < num1.Length; i++)
-                {
-                Console.WriteLine("choose a numbers 8,4,9");
+            {
+                int[] numarray = { 8, 4, 9 };
+                Console.WriteLine("choose a numbers..");
                 int num1 = Convert.ToInt32(Console.ReadLine());
-                int num2 = Convert.ToInt32(Console.ReadLine()); 
-                Console.WriteLine("now to divide the two....");
-                int num3 = num1 / num2;
-                Console.WriteLine(num1 + " divide by " + num2 + " equals " + num3);
-                Console.ReadLine();
+
+                foreach (int i in numarray)
+                {
+                    Console.WriteLine(i / num1);
+                }
             }
 
             catch (FormatException ex)
