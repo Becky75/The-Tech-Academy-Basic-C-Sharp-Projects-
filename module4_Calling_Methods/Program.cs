@@ -11,26 +11,15 @@ namespace module4_Calling_Methods
         static void Main(string[] args)
         {
             // this is creating a data type object
-            Dogs dogs = new Dogs();
-            dogs.Dogs = new List<Dogs>();
-            //this will add 1 dog to list
-
-            dogs.Dogs.Add(dogOne);
-            //this creates a new object, without values
-            Dogs dogOne = new Dogs();
-            dogOne.Dogs = "Heeler";
-            dogOne.Many = "1";
-
-
-            //this will asign some values
-            dogOne.Many = "1";
-            dogOne.Dogs = "Heeler";
-
-
-            Console.WriteLine(dogOne.Many = " of " + dogOne.Dogs);
+            Class1 class1 = new Class1();
+            //asking user for input
+            Console.WriteLine("pick a number?");
+            //save user input
+            int user = Convert.ToInt32(Console.ReadLine());
+            //this will show answer
+            Console.WriteLine(class1.num1(user) + " , " + class1.num2(user) + " , " + class1.num3(user));
+           
             Console.ReadLine();
-            //methods of numbers shuffled
-
 
         }
     }
