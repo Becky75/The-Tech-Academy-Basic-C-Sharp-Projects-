@@ -21,9 +21,9 @@ namespace ConsoleApp2
         {
             return  k;
             }
-        public int Add1(int j) 
+        public int Add1() 
         {
-            return user + user2;
+            return i + k = Equals;
         }
     }
 }
