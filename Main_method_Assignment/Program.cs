@@ -24,6 +24,7 @@ namespace Main_method_Assignment
 
 
             // a second method to the class with the same name that will take in a decimal, create a different math operation for it, then return the answer as an integer.
+            decimal j = 4;
 
 
             //4.In the Main() method of the console app, instantiate the class and call the second method, passing in a decimal. Display the result to the screen.
