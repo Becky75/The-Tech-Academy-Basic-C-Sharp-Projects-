@@ -9,7 +9,7 @@ namespace Main_method_Assignment
     class Main_method_Class
 
 
-        // this is an integer, create a math operation for this integer(addition, subtraction, etc.), then return the answer as an integer.
+    // this is an integer, create a math operation for this integer(addition, subtraction, etc.), then return the answer as an integer.
 
     {
         public int num1(int i)
@@ -21,7 +21,11 @@ namespace Main_method_Assignment
         {
             return j + 2;
         }
-
+          
+    public int num3(k)
+        {
+        return i + j; 
+        }
 
     }
 }

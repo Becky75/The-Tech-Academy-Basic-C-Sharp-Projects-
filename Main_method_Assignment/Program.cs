@@ -33,7 +33,14 @@ namespace Main_method_Assignment
 
             //5.Add a third method to the class, with the same name, that will take in a string, convert it to an integer if possible, do a different math operation to it, then return the answer as an integer.
 
+            // this is creating a data type object
+            Main_method_Class num1 = new Main_method_Class();
+            
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            //this will show answer
+            Console.WriteLine(Main_method_Class.num1(i) + " , " + Main_method_Class.num2(j) + " equals " + num3 );
 
+            Console.ReadLine();
             //6.In the Main() method of the console app, instantiate the class and call the third method, passing in a string that equates to an integer.Display the result to the screen.
 
 
