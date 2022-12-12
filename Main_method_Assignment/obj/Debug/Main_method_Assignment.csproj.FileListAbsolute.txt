@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\bin\Debug\Main_method_Assignment.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\bin\Debug\Main_method_Assignment.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\bin\Debug\Main_method_Assignment.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\obj\Debug\Main_method_Assignment.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\obj\Debug\Main_method_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\obj\Debug\Main_method_Assignment.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Main_method_Assignment\obj\Debug\Main_method_Assignment.pdb

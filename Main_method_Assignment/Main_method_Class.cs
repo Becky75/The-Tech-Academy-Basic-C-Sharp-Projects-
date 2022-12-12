@@ -12,20 +12,22 @@ namespace Main_method_Assignment
     // this is an integer, create a math operation for this integer(addition, subtraction, etc.), then return the answer as an integer.
 
     {
-        public int num1(int i)
+        public int Add1(int i)
         {
             return i + 2;
         }
         // a second method to the class with the same name that will take in a decimal,
-        public decimal num2 = (j);
+        public int Subtract2(decimal j)
         {
-            return j + 2;
+            int k = Convert.ToInt32(j);
+            return k - 2;
         }
           
-    public int num3(k)
+    public int String3(string k)
         {
-        return i + j; 
+            int r = Convert.ToInt32(k);
+        return r + 4; 
         }
-
+     
     }
 }
