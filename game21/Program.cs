@@ -11,8 +11,10 @@ namespace game21
 
             Deck deck = new Deck();
             int timeShuffled = 0;
+            //this is an emptey list 
             deck = Shuffle(deck,out timeShuffled,3);
-
+           //this is how to shuffle x amount of times
+            //deck = Shuffle(deck:deck,times: 3);
            
             // this is to have a suit and face to cards 
 
@@ -30,6 +32,7 @@ namespace game21
         public static Deck Shuffle(Deck deck,out int timesShuffled, int times = 1)
         {
             timesShuffled = 0;
+            //this will shuffle deck mulitpule times
             for (int i =0;i<times;i++)
 
             {
