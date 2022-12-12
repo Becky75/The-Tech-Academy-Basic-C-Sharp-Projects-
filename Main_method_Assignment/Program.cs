@@ -28,7 +28,8 @@ namespace Main_method_Assignment
 
 
             //4.In the Main() method of the console app, instantiate the class and call the second method, passing in a decimal. Display the result to the screen.
-
+            Console.WriteLine(Main_method_Class.num2());
+            Console.ReadLine();
 
             //5.Add a third method to the class, with the same name, that will take in a string, convert it to an integer if possible, do a different math operation to it, then return the answer as an integer.
 
