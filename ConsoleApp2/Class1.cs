@@ -10,20 +10,13 @@ namespace ConsoleApp2
     {
         // 
 
-        public int user(int i)
+        public int mathOperation(int num1,int num2 = 4)
         {
             // a method that takes two integers as parameters.Make one of them optional. Have the method do a math operation and return an integer result.
 
-            return i;
+            int result = num1 + num2;
+            return result;
         }
-        //secound number 
-        public int user2(int k)
-        {
-            return  k;
-            }
-        public int Add1(int Equals) 
-        {
-            return Equals;
-        }
+        
     }
 }

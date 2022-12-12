@@ -26,7 +26,7 @@ namespace ConsoleApp2
             int user2 = Convert.ToInt32(Console.ReadLine());
 
             Class1 Add1 = new Class1();
-            Console.WriteLine(obj1.user(user) + " + " + obj2.user2(user2) + "="+ Add1.Equals(Add1));
+            Console.WriteLine(obj1.mathOperation(user));
 
             Console.ReadLine();
 
