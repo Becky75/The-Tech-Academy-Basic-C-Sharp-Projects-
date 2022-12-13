@@ -25,15 +25,17 @@ namespace ConsoleApp2
             Console.WriteLine(" now pick a second number");
             int user2 = Convert.ToInt32(Console.ReadLine());
             {
-                if(obj2 ==  )
+                if(user2 == user)
                 {
                     //call the method with only the users first number passed in
-                 
+                    Console.WriteLine();
                 }
-                else if (obj2 != 4)
+                else if (user2 != 4)
                     {
                     //convert the user'e second input to in integer
                     //call the method with both of the users numbers passed in.
+                    Console.WriteLine();
+                
                 }
             }
             Class1 Add1 = new Class1();
