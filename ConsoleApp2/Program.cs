@@ -22,22 +22,24 @@ namespace ConsoleApp2
             int user = Convert.ToInt32(Console.ReadLine());
 
            
-            Console.WriteLine("if you like pick a second number");
-            int user2 = Convert.ToInt32(Console.ReadLine());
-            {
-                if(user2 == user)
+            Console.WriteLine("if you would like pick a second number");
+
+            string user2 = Console.ReadLine();
+            { 
+                if(user2 == "")
                 {
                     //call the method with only the users first number passed in
-                    Console.WriteLine();
+                    Console.WriteLine(obj1.mathOperation(user));
                 }
-                else if (user2 != 4)
+                else
                     {
                     //convert the user'e second input to in integer
                     //call the method with both of the users numbers passed in.
-                    Console.WriteLine();
+                    int user3 = Convert.ToInt32(user2);
+                    Console.WriteLine(obj1.mathOperation(user, user3));
                 }
             }
-            Class1 Add1 = new Class1();
+            
            
             Console.ReadLine();
 
