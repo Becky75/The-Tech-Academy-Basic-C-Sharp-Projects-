@@ -21,8 +21,8 @@ namespace ConsoleApp2
             Console.WriteLine("pick two numbers, one at a time First number is?");
             int user = Convert.ToInt32(Console.ReadLine());
 
-            Class1 obj2 = new Class1();
-            Console.WriteLine(" now pick a second number");
+           
+            Console.WriteLine("if you like pick a second number");
             int user2 = Convert.ToInt32(Console.ReadLine());
             {
                 if(user2 == user)
@@ -35,12 +35,10 @@ namespace ConsoleApp2
                     //convert the user'e second input to in integer
                     //call the method with both of the users numbers passed in.
                     Console.WriteLine();
-                
                 }
             }
             Class1 Add1 = new Class1();
-            Console.WriteLine(obj1.mathOperation(user));
-
+           
             Console.ReadLine();
 
         }
