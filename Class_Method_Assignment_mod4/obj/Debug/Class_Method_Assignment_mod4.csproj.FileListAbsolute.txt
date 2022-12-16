@@ -1,0 +1,2 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Class_Method_Assignment_mod4\obj\Debug\Class_Method_Assignment_mod4.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Class_Method_Assignment_mod4\obj\Debug\Class_Method_Assignment_mod4.csproj.CoreCompileInputs.cache
