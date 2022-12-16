@@ -16,7 +16,7 @@ namespace Class_Method_Assignment_mod4
            int k= i / 2;
             Console.WriteLine(k);//since k has the value of i/2, we can just use k
         }
-            Console.ReadLine();
+            
         
     }
 }
