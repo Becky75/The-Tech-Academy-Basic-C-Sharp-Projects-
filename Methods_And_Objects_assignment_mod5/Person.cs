@@ -14,7 +14,7 @@ namespace Methods_And_Objects_assignment_mod5
         public string LastName { get; set; }
         // this class a void method called SayName() that takes no parameters and simply writes the person's full name to the console in the format of: “Name: [full name]”.
         
-        public void ListPlayers()
+        public void ListNames()
         {
             foreach (string name in Names)
             {
