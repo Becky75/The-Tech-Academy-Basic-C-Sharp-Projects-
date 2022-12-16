@@ -17,10 +17,10 @@ namespace Class_Method_Assignment_mod4
         {
             Class1 Math = new Class1();// instantiates class.
 
-            Math.Divide1( 2);
+            Math.Add1( 2);
             //Call the method in the class, specifying the parameters by name.
 
-            Math.Divide(num1: 10, j: 2);
+            Math.Add1(num1: 10, j: 2);
 
 
             Console.ReadLine();
