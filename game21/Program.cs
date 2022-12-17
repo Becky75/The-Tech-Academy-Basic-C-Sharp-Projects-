@@ -8,30 +8,24 @@ namespace game21
     {
         static void Main(string[] args)
         {
-
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Bob", "Joe" };
-            game.ListPlayers();
-            game.Play();
-            Console.ReadLine();
-            // an other way to write it- Deck deck = new Deck() { Face = "king", Suit = "spades" }; - does the same as below code
-           // Deck deck = new Deck();
             
-           
-           // //this is an emptey list 
-           // deck.Shuffle(3);
-           ////this is how to shuffle x amount of times
-           
-           
-           // // this is to have a suit and face to cards 
+            // an other way to write it- Deck deck = new Deck() { Face = "king", Suit = "spades" }; - does the same as below code
+            Deck deck = new Deck();
 
-           // foreach (Card card in deck.Cards)
-           // {
-           //     Console.WriteLine(card.Face + " of " + card.Suit);
-           // }
-           // Console.WriteLine(deck.Cards.Count);
-          
-           // Console.ReadLine();
+
+            // //this is an emptey list 
+            deck.Shuffle(3);
+            ////this is how to shuffle x amount of times
+
+
+            // // this is to have a suit and face to cards 
+
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
+            Console.ReadLine();
 
         }
         //this will shuffle the deck randomly
