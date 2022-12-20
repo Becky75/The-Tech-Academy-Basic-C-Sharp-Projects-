@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\bin\Debug\Methods_And_Objects_assignment_mod5.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\bin\Debug\Methods_And_Objects_assignment_mod5.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\bin\Debug\Methods_And_Objects_assignment_mod5.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\obj\Debug\Methods_And_Objects_assignment_mod5.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\obj\Debug\Methods_And_Objects_assignment_mod5.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\obj\Debug\Methods_And_Objects_assignment_mod5.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Methods_And_Objects_assignment_mod5\obj\Debug\Methods_And_Objects_assignment_mod5.pdb

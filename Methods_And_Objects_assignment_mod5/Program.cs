@@ -10,18 +10,17 @@ namespace Methods_And_Objects_assignment_mod5
     {
         static void Main(string[] args)
         {
+         
+            //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
+
+            Employee employee1 = new Employee();  //instantiate
+            employee1.FirstName = "Sample";
+            employee1.LastName = "Student";
+
 
             //Call the superclass method SayName() on the Employee object.
-
-            Employee ListNames = new Employee();  //instantiate
-            ListNames.FirstName = new List<string>() { "Bob", "Joe", "Janet" };
-            ListNames.ListNames();
+            employee1.SayName();
             Console.ReadLine();
-            //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
-            Employee employee = new Employee();
-
-
-
 
         }
     }
