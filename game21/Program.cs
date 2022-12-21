@@ -8,7 +8,10 @@ namespace game21
     {
         static void Main(string[] args)
         {
-            
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
+            game.ListPlayers();
+            Console.ReadLine();
             // an other way to write it- Deck deck = new Deck() { Face = "king", Suit = "spades" }; - does the same as below code
             Deck deck = new Deck();
 
