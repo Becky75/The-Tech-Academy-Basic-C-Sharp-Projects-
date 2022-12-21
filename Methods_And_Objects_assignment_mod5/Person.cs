@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Methods_And_Objects_assignment_mod5
 {
-    public class Person 
+    public abstract class Person 
     {
        //give it two properties, each of data type string. One called FirstName, the other LastName.
     
