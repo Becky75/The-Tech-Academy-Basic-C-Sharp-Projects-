@@ -16,8 +16,8 @@ namespace Methods_And_Objects_assignment_mod5
             Employee employee1 = new Employee();  //instantiate
             employee1.FirstName = "Sample";
             employee1.LastName = "Student";
-
-
+            IQuittable employee2 = new Employee();
+            employee2.Quit();
             //Call the superclass method SayName() on the Employee object.
             employee1.SayName();
             Console.ReadLine();

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Methods_And_Objects_assignment_mod5
 {
-    interface IQuittable
+    public interface IQuittable
     {
-        void Quit(Person person);
+      void Quit();
     }
 }
