@@ -19,6 +19,7 @@ namespace Methods_And_Objects_assignment_mod5
             if (emp1==emp2)
             {
                 Console.WriteLine("true");
+
             }
         }
 
@@ -27,6 +28,7 @@ namespace Methods_And_Objects_assignment_mod5
             if (emp1!=emp2)
             {
                 Console.WriteLine("false");
+
             }
 
         }
