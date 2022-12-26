@@ -13,13 +13,13 @@ namespace Methods_And_Objects_assignment_mod5
          
             //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
 
-            Employee employee1 = new Employee();  //instantiate
+            Employee employee1 = new Employee ( Employee employee1, Employee employee2 ); //add ID protpery
+             //add first name last name
+
             employee1.FirstName = "Sample";
             employee1.LastName = "Student";
-            IQuittable employee2 = new Employee();
-            employee2.Quit();
-            //Call the superclass method SayName() on the Employee object.
-            employee1.SayName();
+            Employee employee2 = new Employee();
+     Console.WriteLine (employee1.ID == employee2.ID);
             Console.ReadLine();
 
         }

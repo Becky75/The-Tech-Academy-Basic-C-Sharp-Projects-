@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace game21
 {
-    interface IWalkAway
+    interface IWalkAway// can inherate many interfaces
     {
+        void WalkAway(Player player);
     }
 }
