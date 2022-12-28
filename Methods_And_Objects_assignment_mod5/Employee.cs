@@ -15,34 +15,38 @@ namespace Methods_And_Objects_assignment_mod5
         public string LastName { get; set; }
         //Bool comparison operator overload 
         //static method
-        public bool Employee { get; set; }
 
-        public bool operator ==(Employee emp1, Employee emp2)
+        //this is an equals operator,with if and else statment 
+        static public bool operator== (Employee emp1, Employee emp2)
         {
-            if (emp1==emp2)
+            if (emp1.ID==emp2.ID)
             {
-                return emp1;
-                Console.WriteLine();    
+               
+                Console.WriteLine();
+                return true;
             }
             else
             {
-                return ;
+                
                 Console.WriteLine();
+                return false;
             }
 
         }
-
-        public bool operator !=(Employee emp1, Employee emp2)
+        //this is an not equal operator, with an if and esle statment
+        static public bool operator!= (Employee emp1, Employee emp2)
         {
-            if (emp1!=emp2)
+            if (emp1.ID!=emp2.ID)
             {
-                return emp2;
+               
                 Console.WriteLine();
+                return true;
             }
             else
             {
-                return emp1
+               
                 Console.WriteLine("false");
+                return false;
             }
 
         }
