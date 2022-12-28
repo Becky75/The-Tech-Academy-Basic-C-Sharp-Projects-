@@ -8,14 +8,15 @@ namespace game21
     {
         static void Main(string[] args)
         {
-
+           
             //operator
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game += player;
-            game -= player;
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>();
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game += player;
+            //game -= player;
+
             // an other way to write it- Deck deck = new Deck() { Face = "king", Suit = "spades" }; - does the same as below code
             Deck deck = new Deck();
 

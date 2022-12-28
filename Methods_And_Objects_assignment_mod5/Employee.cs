@@ -15,8 +15,7 @@ namespace Methods_And_Objects_assignment_mod5
         public string LastName { get; set; }
         //Bool comparison operator overload 
         //static method
-        public static bool ();
-
+        public bool Employee { get; set; }
 
         public bool operator ==(Employee emp1, Employee emp2)
         {
@@ -27,7 +26,8 @@ namespace Methods_And_Objects_assignment_mod5
             }
             else
             {
-                Console.WriteLine("true");
+                return ;
+                Console.WriteLine();
             }
 
         }
@@ -41,6 +41,7 @@ namespace Methods_And_Objects_assignment_mod5
             }
             else
             {
+                return emp1
                 Console.WriteLine("false");
             }
 
