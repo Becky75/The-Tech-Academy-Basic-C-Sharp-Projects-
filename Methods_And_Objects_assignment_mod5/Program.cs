@@ -13,7 +13,7 @@ namespace Methods_And_Objects_assignment_mod5
          
             //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
 
-            Employee employee1 = new Employee (Employee employee1, Employee employee2); //add ID protpery
+            Employee employee1 = new Employee() { ID = 2}; //add ID protpery
             //add first name last name
             employee1.FirstName = "Billy";
             employee1.LastName = " Bob";
