@@ -8,51 +8,52 @@ namespace Methods_And_Objects_assignment_mod5
 {
     //Create another class called Employee and have it inherit from the Person class. Give the Employee class a property called Id and have it be of data type int.
     // interface file added to the inherated class  
-    public class Employee : IQuittable
+    public class Employee //: IQuittable
     {
+        //Employee class with a generic type parameter. 
+        List<string> Main;
+        //Add a property called “things” and have its data type be a generic list matching the generic type of the class
+        public string Things { get; set;}
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        //Bool comparison operator overload 
-        //static method
 
-        //this is an equals operator,with if and else statment 
-        static public bool operator== (Employee emp1, Employee emp2)
-        {
-            if (emp1.ID==emp2.ID)
-            {
-               
-                Console.WriteLine();
-                return true;
-            }
-            else
-            {
-                
-                Console.WriteLine();
-                return false;
-            }
+       
+ 
+    //Bool comparison operator overload 
+    //static method
+    //public bool Employee { get; set; }
 
-        }
-        //this is an not equal operator, with an if and esle statment
-        static public bool operator!= (Employee emp1, Employee emp2)
-        {
-            if (emp1.ID!=emp2.ID)
-            {
-               
-                Console.WriteLine();
-                return true;
-            }
-            else
-            {
-               
-                Console.WriteLine("false");
-                return false;
-            }
+    //public bool operator ==(Employee emp1, Employee emp2)
+    //{
+    //    if (emp1==emp2)
+    //    {
+    //        return emp1;
+    //        Console.WriteLine();    
+    //    }
+    //    else
+    //    {
+    //        Console.WriteLine("true");
+    //    }
 
-        }
+    //}
 
-        void IQuittable.Quit() { Console.WriteLine("i quit"); }
-    }
+    //public bool operator != (Employee emp1, Employee emp2)
+    //{
+    //    if (emp1!=emp2)
+    //    {
+    //        return emp2;
+    //        Console.WriteLine();
+    //    }
+    //    else
+    //    {
+    //        Console.WriteLine("false");
+    //    }
+
+}
+
+        //void IQuittable.Quit() { Console.WriteLine("i quit"); }
+    //}
 
      
   
