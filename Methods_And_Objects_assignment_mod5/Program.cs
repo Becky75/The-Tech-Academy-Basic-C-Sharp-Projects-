@@ -23,7 +23,8 @@ namespace Methods_And_Objects_assignment_mod5
 
             employee1.FirstName = "Sample";
             employee1.LastName = "Student";
-            Employee employee2 = new Employee();
+            Employee<string>empObject = new Employee<string>();
+            empObject.Things = "Car";
 
      Console.WriteLine (employee1.ID == employee2.ID);
 
@@ -33,7 +34,7 @@ namespace Methods_And_Objects_assignment_mod5
             {
                 for (int j = 0; j < 2; j++)
                 {
-                    Employee emp1 = new Employee();
+                    Employee empObject = new Employee();
                     emp1.ID= ()i;
                     emp1= ()j;
                     Employee.Add();
