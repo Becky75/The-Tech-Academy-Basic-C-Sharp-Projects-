@@ -8,12 +8,14 @@ namespace Methods_And_Objects_assignment_mod5
 {
     //Create another class called Employee and have it inherit from the Person class. Give the Employee class a property called Id and have it be of data type int.
     // interface file added to the inherated class  
-    public class Employee //: IQuittable
+    
+    //Employee class with a generic type parameter. 
+
+    public class Employee<T> //: IQuittable
     {
-        //Employee class with a generic type parameter. 
-        List<string> Main;
+       
         //Add a property called “things” and have its data type be a generic list matching the generic type of the class
-        public string Things { get; set;}
+        public List<T> Things { get; set;}
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

@@ -10,37 +10,51 @@ namespace Methods_And_Objects_assignment_mod5
     {
         static void Main(string[] args)
         {
-           
 
+            string[] Employee = { "bob", "billy", "Daryl" };
             //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
 
-            Employee employee1 = new Employee() { ID = 2}; //add ID protpery. this Instantiate
-            //add first name last name
-            employee1.FirstName = "Billy";
-            employee1.LastName = " Bob";
             
-           
-
-            employee1.FirstName = "Sample";
-            employee1.LastName = "Student";
             Employee<string>empObject = new Employee<string>();
-            empObject.Things = "Car";
+            empObject.Things = new List<string>() { 
+            
+            "Bob",
+            "Billy",
+            "Daryl"};
 
-     Console.WriteLine (employee1.ID == employee2.ID);
-
-           
-
-            for (int i = 0; i < 2; i++)
+           foreach (string Item in empObject.Things)
             {
-                for (int j = 0; j < 2; j++)
-                {
-                    Employee empObject = new Employee();
-                    emp1.ID= ()i;
-                    emp1= ()j;
-                    Employee.Add();
-                }
+                Console.WriteLine(Item);  
+            }
 
-                Console.ReadLine();
+
+
+            int[] array = { 3, 5, 6 };
+            //initialize an Employee object with a first name of “Sample” and a last name of “Student”.
+
+
+            Employee<int> empItem = new Employee<int>();
+            empItem.Things = new List<int>() {
+
+            3,
+            5,
+            6};
+
+            foreach (int Item in empItem.Things)
+            {
+                Console.WriteLine(Item);
+            }
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    for (int j = 0; j < 2; j++)
+            //    {
+            //        Employee empObject = new Employee();
+            //        emp1.ID= ()i;
+            //        emp1= ()j;
+            //        Employee.Add();
+            //    }
+
+            Console.ReadLine();
 
         }
     }
