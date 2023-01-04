@@ -20,8 +20,8 @@ namespace Parsing_Enums_assignment_mod6
                 Console.WriteLine("Enter A Day: ");
                 string userinput = Console.ReadLine();
                 //this is a enum for the days of the week
-                var Day = Enum.Parse(typeof(DaysOfTheWeek), Day);
-                Console.WriteLine("You entered" + Day + " and that is a great day of the week!");
+                var Day = Enum.Parse(typeof(DaysOfTheWeek),userinput);
+                Console.WriteLine("You entered " + Day + " and that is a great day of the week!");
 
             }
             catch (Exception e)
@@ -30,7 +30,7 @@ namespace Parsing_Enums_assignment_mod6
                 Console.WriteLine(e);
             }
             Console.WriteLine("Please enter an actual day of the week.");
-           
+            Console.ReadLine();
         }
         public enum DaysOfTheWeek
         {
@@ -43,7 +43,7 @@ namespace Parsing_Enums_assignment_mod6
             Sunday
         }
 
-       Console.ReadLine();
+   
     }
      
  }
