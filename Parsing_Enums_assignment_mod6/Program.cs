@@ -11,14 +11,20 @@ namespace Parsing_Enums_assignment_mod6
         static void Main(string[] args)
 
         {
+
             //this is a try/catch
             try
             {
+                //type in user input 
+                Console.WriteLine("enter Day: ");
+                string userinput = Console.ReadLine();
                 //this is a enum for the days of the week
-                DaysOfTheWeek Day = DaysOfTheWeek.Monday;
+               
             }
             catch (Exception e)
             {
+                
+                DaysOfTheWeek Day = DaysOfTheWeek.Monday;
                 Console.WriteLine(e);
             }
             Console.WriteLine("Please enter an actual day of the week.");
@@ -35,7 +41,8 @@ namespace Parsing_Enums_assignment_mod6
             Sunday
         }
        DaysOfTheWeek Day= Enum.Parse(typeof(DaysOfTheWeek), Day);
-        Console.WriteLine("You entered" + Day + " and that is a great day of the week!");
+        Console.WriteLine=("You entered" + Day + " and that is a great day of the week!");
+
        Console.ReadLine();
     }
      
