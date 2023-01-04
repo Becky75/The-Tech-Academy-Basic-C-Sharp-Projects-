@@ -34,9 +34,9 @@ namespace Parsing_Enums_assignment_mod6
             Saturday,
             Sunday
         }
-        DaysOfTheWeek=(DaysOfTheWeek) Enum.Parse(typeof(DaysOfTheWeek), userinput);
-        Console.WriteLine("You entered" + userinput + " and that is a great day of the week!");
-
+       DaysOfTheWeek Day=(DaysOfTheWeek) Enum.Parse(typeof(DaysOfTheWeek), Day);
+        Console.WriteLine("You entered" + Day + " and that is a great day of the week!");
+       Console.ReadLine();
     }
      
  }
