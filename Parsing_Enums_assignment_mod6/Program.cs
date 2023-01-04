@@ -23,8 +23,7 @@ namespace Parsing_Enums_assignment_mod6
             }
             catch (Exception e)
             {
-                
-                DaysOfTheWeek Day = DaysOfTheWeek.Monday;
+            
                 Console.WriteLine(e);
             }
             Console.WriteLine("Please enter an actual day of the week.");
