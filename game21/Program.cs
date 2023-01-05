@@ -8,7 +8,8 @@ namespace game21
     {
         static void Main(string[] args)
         {
-           
+          
+
             //operator
             //Game game = new TwentyOneGame();
             //game.Players = new List<Player>();
@@ -36,6 +37,8 @@ namespace game21
             Console.ReadLine();
 
         }
+        
+
         //this will shuffle the deck randomly
         //out varaible has to go before any other prarameters
         
