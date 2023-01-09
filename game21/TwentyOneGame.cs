@@ -22,6 +22,7 @@ namespace game21
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet!");
 
             foreach (Player player in Players)
@@ -67,6 +68,7 @@ namespace game21
                             Dealer.Balance += entry.Value;
 
                         }
+                        return;
                     }
                 }
             }
@@ -97,9 +99,10 @@ namespace game21
                         Console.WriteLine("{0} Busted! You lose your bet of {1}. Your balance is now{2}.");
                         Console.WriteLine("Do you want to play again?");
                         answer = Console.ReadLine().ToLower();
-                        if (answer =="yes" || answer == "yeah")
+                        if (answer == "yes" || answer == "yeah")
                         {
                             player.isActivelyPlaying = true;
+                            return;
                         }
                         else
                         {
@@ -124,14 +127,14 @@ namespace game21
             if (Dealer.isBusted)
             {
                 Console.WriteLine("Dealer Busted!");
-                foreach (KeyValuePair<Player, int>entry in Bets)
+                foreach (KeyValuePair<Player, int> entry in Bets)
                 {
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                     Dealer.Balance -= entry.Value;
-                    }
-                return;
                 }
+                return;
+            }
             foreach (Player player in Players)
             {
                 bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
@@ -163,17 +166,18 @@ namespace game21
                     player.isActivelyPlaying = false;
                 }
             }
-            }
-        }
-                
-        public override void ListPlayers()
-        {
-            Console.WriteLine("21 Players");
-            base.ListPlayers();
-        }
-        public void WalkAway(Player player)
-            {
-            throw new NotImplementedException();
         }
     }
-}
+}                
+
+        //public override void ListPlayers()
+        //{
+        //    Console.WriteLine("21 Players");
+        //    base.ListPlayers();
+        //}
+        //public void WalkAway(Player player)
+        //    {
+        //    throw new NotImplementedException();
+        
+    
+
