@@ -17,9 +17,16 @@ namespace game21
             Hand.Add(Deck.Cards.First());
             string card = string.Format(Deck.Cards.First().ToString() + "/n");
             Console.WriteLine(card);
-          //this is to log txt into a file
+
+            //this is to log txt into a file
             // using (StreamWriter file = new StreamWriter("path where it is logged in", true))
-           //{file.WriteLine(card);}
+            //{file.WriteLine(card);}
+
+            using (StreamWriter file = new StreamWriter(@"c:\users\alpac\logs\log.txt", true))
+            {
+                file.WriteLine(DateTime.Now);
+                file.WriteLine(card);
+            }
             Deck.Cards.RemoveAt(0);
         }
     }

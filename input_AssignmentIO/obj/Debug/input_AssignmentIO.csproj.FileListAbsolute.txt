@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\bin\Debug\input_AssignmentIO.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\bin\Debug\input_AssignmentIO.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\bin\Debug\input_AssignmentIO.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\obj\Debug\input_AssignmentIO.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\obj\Debug\input_AssignmentIO.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\obj\Debug\input_AssignmentIO.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\input_AssignmentIO\obj\Debug\input_AssignmentIO.pdb

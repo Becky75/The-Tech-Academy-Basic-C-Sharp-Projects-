@@ -11,11 +11,16 @@ namespace Input_Assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pick a number?");
-            string text = File.ReadAllText("@C:\Users\alpac\Documents\log.txt");
-            File.WriteAllText("@C:\Users\alpac\Documents\log.txt");
-            int i = Convert.ToInt32(Console.ReadLine());
+            // this is for  current date and time
+            Console.WriteLine("Current Date and Time");
+            DateTime now = DateTime.Now;
 
+            Console.WriteLine("Pick a number?");
+            string text = File.ReadAllText(@"C:\Users\alpac\Documents\log.txt");
+            File.WriteAllText(@"C:\Users\alpac\Documents\log.txt", "event time");
+            int i = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(now);
+            Console.ReadLine();
         }
     }
 }

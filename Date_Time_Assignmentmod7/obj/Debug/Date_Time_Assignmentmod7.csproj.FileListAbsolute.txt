@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\obj\Debug\Date_Time_Assignmentmod7.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\obj\Debug\Date_Time_Assignmentmod7.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\bin\Debug\Date_Time_Assignmentmod7.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\bin\Debug\Date_Time_Assignmentmod7.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\bin\Debug\Date_Time_Assignmentmod7.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\obj\Debug\Date_Time_Assignmentmod7.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Date_Time_Assignmentmod7\obj\Debug\Date_Time_Assignmentmod7.pdb

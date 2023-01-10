@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 
 namespace game21
@@ -8,6 +9,7 @@ namespace game21
     {
         static void Main(string[] args)
         {
+            
             //prints welcome comment and can enter the player name
             Console.WriteLine("welcome to the Grand Hotel and Casino. Lets start by telling me your name.");
             //reads player name, 
@@ -21,7 +23,7 @@ namespace game21
             //this allows for different answers 
             string answer = Console.ReadLine().ToLower();
            
-            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+         if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 //this is a constructor
                 Player player = new Player(playerName, bank);
