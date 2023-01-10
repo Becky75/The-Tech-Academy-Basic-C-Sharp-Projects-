@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.IO;
 namespace game21
 {
     public class Dealer
@@ -15,7 +15,11 @@ namespace game21
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString()+ "/n");
+            string card = string.Format(Deck.Cards.First().ToString() + "/n");
+            Console.WriteLine(card);
+          //this is to log txt into a file
+            // using (StreamWriter file = new StreamWriter("path where it is logged in", true))
+           //{file.WriteLine(card);}
             Deck.Cards.RemoveAt(0);
         }
     }
