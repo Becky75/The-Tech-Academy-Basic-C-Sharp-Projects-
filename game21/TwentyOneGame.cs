@@ -35,7 +35,6 @@ namespace game21
                 }
 
                 Bets[player] = bet;
-
             }
             for (int i = 0; i < 2; i++)
             {
@@ -107,6 +106,7 @@ namespace game21
                         else
                         {
                             player.isActivelyPlaying = false;
+                            return;
                         }
                     }
                 }
@@ -142,7 +142,7 @@ namespace game21
                 {
                     Console.WriteLine("Push! No one wins.");
                     player.Balance += Bets[player];
-                    Bets.Remove(player);
+
                 }
                 else if (playerWon == true)
                 {
@@ -155,6 +155,7 @@ namespace game21
                     Console.WriteLine("Dealer wins{0}!,", Bets[player]);
                     Dealer.Balance += Bets[player];
                 }
+
                 Console.WriteLine("Play again?");
                 string answer = Console.ReadLine().ToLower();
                 if (answer == "yes" || answer == "yeah")
@@ -167,17 +168,21 @@ namespace game21
                 }
             }
         }
-    }
-}                
 
-        //public override void ListPlayers()
-        //{
-        //    Console.WriteLine("21 Players");
-        //    base.ListPlayers();
-        //}
-        //public void WalkAway(Player player)
-        //    {
-        //    throw new NotImplementedException();
-        
-    
+
+
+        public override void ListPlayers()
+        {
+            Console.WriteLine("21 Players");
+            base.ListPlayers();
+        }
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+
+
 
