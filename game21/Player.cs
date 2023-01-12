@@ -8,6 +8,11 @@ namespace game21
 {
     public class Player
     {
+        // this is a parameter that inheits a previous constractor. it asignsthe 100 if there isnt an amount entered
+        public Player(string name) : this(name, 100)
+        {
+
+        }
        // this is a constructor with 2 parameters
         public Player(string name, int beginningBalance)
         {

@@ -4,7 +4,7 @@
                 using System.IO;
 
 
-namespace game21
+namespace Constructor_assignment_mo8
     {
         class Program
         {
@@ -20,7 +20,6 @@ namespace game21
                 string playerName = Console.ReadLine();
             }
             
-            Console.WriteLine();
         }
     }
-}
+

@@ -9,17 +9,29 @@ namespace game21
     {
         static void Main(string[] args)
         {
-            //this is a player entered with only a name so will have a balance of a 100, by calling a constractor in program.cs
-            Player newPlayer = new Player("Becky");
+            const string casinoName ="Tally Casino";
+
+            //this is a player entered with only a name so will have a balance of a 100, by calling a  var constractor in program.cs
+            var newPlayer = new Player("Becky");
             
             //prints welcome comment and can enter the player name
-            Console.WriteLine("welcome to the Grand Hotel and Casino. Lets start by telling me your name.");
+            Console.WriteLine("welcome to the {0}. Lets start by telling me your name.");
             //reads player name, 
-            string playerName = Console.ReadLine(); 
-            
+            string playerName = Console.ReadLine();
+
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("please enter digits only, no decimals");
+            }
             // asks and enters amount of money           
-            Console.WriteLine("And how much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());            
+           // Console.WriteLine("And how much money did you bring today?");
+           // int bank = Convert.ToInt32(Console.ReadLine());
+            
+
            
             Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
             //this allows for different answers 
