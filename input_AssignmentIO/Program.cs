@@ -14,7 +14,7 @@ namespace Input_Assignment
             // this is for  current date and time
             Console.WriteLine("Current Date and Time");
             DateTime now = DateTime.Now;
-
+            //this will log text to a file and date and time it was entered
             Console.WriteLine("Pick a number?");
             string text = File.ReadAllText(@"C:\Users\alpac\Documents\log.txt");
             File.WriteAllText(@"C:\Users\alpac\Documents\log.txt", "event time");

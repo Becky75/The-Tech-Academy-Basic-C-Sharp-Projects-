@@ -9,6 +9,8 @@ namespace game21
     {
         static void Main(string[] args)
         {
+            //this is a player entered with only a name so will have a balance of a 100, by calling a constractor in program.cs
+            Player newPlayer = new Player("Becky");
             
             //prints welcome comment and can enter the player name
             Console.WriteLine("welcome to the Grand Hotel and Casino. Lets start by telling me your name.");
