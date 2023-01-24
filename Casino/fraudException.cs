@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Casino
 {
-    public class fraudException : Exception
+    public class FraudException : Exception
     {
         //2 methods in this class constractors
-        public fraudException ()
+        public FraudException ()
             : base(){ }
-        public fraudException(string message)
+        public FraudException(string message)
             : base(message) { }
     }
 }
