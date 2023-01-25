@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using StudentsMVC.Models;
 
 namespace StudentsMVC.Controllers
 {
@@ -26,9 +27,9 @@ namespace StudentsMVC.Controllers
 
             return View();
         }
-        public ActionResult Instructor(int id)
+        public ActionResult Instructor(int Id)
         {
-            ViewBag.Id = id;
+            ViewBag.Id = Id;
 
             Instructor dayTimeInstructor = new Instructor
             {
@@ -40,7 +41,29 @@ namespace StudentsMVC.Controllers
         }
         public ActionResult Instructors()
         {
-            return View();
+            List<Instructor> instructors = new List<Instructor>
+            {
+                new Instructor
+                {
+                    Id = 1,
+                    FirstName = "Rick",
+                    LastName = "Ramen"
+                },
+            new Instructor
+            {
+                Id = 2,
+                FirstName = "Brett",
+                LastName = "Calendar"
+            },
+            new Instructor
+            {
+                Id = 3,
+                FirstName = "Adam",
+                LastName = "Smithsonian"
+
+            };
+        
+            return View(instructors);
         }
 
     }
