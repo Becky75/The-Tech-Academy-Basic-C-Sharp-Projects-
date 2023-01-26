@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -25,15 +26,15 @@ namespace NewsLetterNBC.Controllers
             {
                 string connectionString = @"Data Source=THUNDERHOOF\SQLEXPRESS;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
                 
-                string QueryString = @"INSERT INTO signups (FirstName, LastName, EmailAddress) VALUES
+                string queryString = @"INSERT INTO signups (FirstName, LastName, EmailAddress) VALUES
                     (@FirstName, @LastName, @EmailAddress)";
 
-                using (SqlConnection connect = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     SqlCommand command = new SqlCommand(queryString, connection);
                     command.Parameters.Add("@FirstName", SqlDbType.VarChar);
                     command.Parameters.Add("@LastName", SqlDbType.VarChar);
-                    command.Parameters.Add("@EmailAddress", sqlDbType.VarChar);
+                    command.Parameters.Add("@EmailAddress", SqlDbType.VarChar);
 
                     command.Parameters["@FirstName"].Value = firstName;
                     command.Parameters["@LastName"].Value = lastName;
@@ -43,9 +44,10 @@ namespace NewsLetterNBC.Controllers
                     command.ExecuteNonQuery();
                     connection.Close();
 
-                }
 
-                return View("Success");
+                }
+                    return View("Success");
+                
             }
         }
 
