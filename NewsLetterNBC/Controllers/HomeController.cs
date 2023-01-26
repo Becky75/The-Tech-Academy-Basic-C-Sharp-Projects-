@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace NewsLetterNBC.Controllers
+{
+    public class HomeController : Controller
+    {
+        public ActionResult Index()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Signup(string firstName, String lastName, String emailAddress)
+        {
+            if ( string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress))
+
+                {
+                return View("~/View/Shared/Error.cshtml");
+            }
+            else
+            {
+                string connectionString = @"Data Source=THUNDERHOOF\SQLEXPRESS;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                
+                string QueryString = @"INSERT INTO signups (FirstName, LastName, EmailAddress) VALUES
+                    (@FirstName, @LastName, @EmailAddress)";
+
+                using (SqlConnection connect = new SqlConnection(connectionString))
+                {
+                    SqlCommand command = new SqlCommand(queryString, connection);
+                    command.Parameters.Add("@FirstName", SqlDbType.VarChar);
+                    command.Parameters.Add("@LastName", SqlDbType.VarChar);
+                    command.Parameters.Add("@EmailAddress", sqlDbType.VarChar);
+
+                    command.Parameters["@FirstName"].Value = firstName;
+                    command.Parameters["@LastName"].Value = lastName;
+                    command.Parameters["@EmailAddress"].Value = emailAddress;
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+
+                }
+
+                return View("Success");
+            }
+        }
+
+        public ActionResult About()
+        
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+    }
+}
