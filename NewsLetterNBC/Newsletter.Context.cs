@@ -9,7 +9,6 @@
 
 namespace NewsLetterNBC
 {
-    using NewsLetterNBC;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
@@ -26,6 +25,6 @@ namespace NewsLetterNBC
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<signup> Signups{ get; set; }
+        public virtual DbSet<signup> signups { get; set; }
     }
 }
