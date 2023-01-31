@@ -77,3 +77,7 @@ C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLet
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\obj\Debug\NewsLetterNBC.csproj.CopyComplete
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\obj\Debug\NewsLetterNBC.dll
 C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\obj\Debug\NewsLetterNBC.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\bin\EntityFramework.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\bin\EntityFramework.SqlServer.dll
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\bin\EntityFramework.xml
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\NewsLetterNBC\bin\EntityFramework.SqlServer.xml
