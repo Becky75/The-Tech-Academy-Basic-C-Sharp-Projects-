@@ -54,7 +54,7 @@ namespace NewsLetterNBC.Controllers
             }
         }
 
-        public ActionResult Admin()
+        public ActionResult Adim()
         {
 
             string queryString = @"SELECT Id, FirstName,LastName, EmailAddress, SocialSecurtyNumber from signups";
@@ -75,7 +75,7 @@ namespace NewsLetterNBC.Controllers
                     signup.FirstName = reader["FirstName"].ToString();
                     signup.LastName = reader["LastName"].ToString();
                     signup.EmailAddress = reader["EmalAddress"].ToString();
-                    signup.SocialSecurtyNumber = reader["SocialSecurtyNumber"].ToString();
+                    signup.SocialSecurityNumber = reader["SocialSecurityNumber"].ToString();
                     
                     signups.Add(signup);
 
