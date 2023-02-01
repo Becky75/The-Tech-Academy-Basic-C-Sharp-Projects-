@@ -14,7 +14,9 @@ namespace NewsLetterNBC.Controllers
         {
             using (NewsletterEntities db = new NewsletterEntities())
             {
-                var signups = db.SignUps;
+                //var signups = db.signups.Where(x => x.Removed == null).ToList();
+                var sigups = (from c in db.signups
+                              where c.Removed == null select c).ToList();
                 var signupVms = new List<SignupVm>();
                 foreach (var signup in signups)
                 {
@@ -31,13 +33,13 @@ namespace NewsLetterNBC.Controllers
         }
         public ActionResult Unsubscribe(int Id)
         {
-           using (NewsletterEntities bd = NewsletterEntities())
+           using (NewsletterEntities db = new NewsletterEntities())
             {
-                var signup = db.SignUps.Find(Id);
+                var signup = db.signups.Find(Id);
                 signup.Removed = DateTime.Now;
-                db.SaveChanges();
-                    
+                db.SaveChanges();       
             }
+            return RedirectToAction("Index");
            
         }
     }

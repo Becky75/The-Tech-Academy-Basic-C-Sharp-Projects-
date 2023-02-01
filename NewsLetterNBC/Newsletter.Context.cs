@@ -25,6 +25,6 @@ namespace NewsLetterNBC
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<signup> signups { get; set; }
+        public virtual DbSet<SignUp> signups { get; set; }
     }
 }
