@@ -57,7 +57,7 @@ namespace CarInsuramce.Controllers
                 {
                     Quote += 100;
                 }
-                else if (age >= 19  25)
+                else if (age >= 19, age <= 25)
                 {
                     Quote += 50;
                 }
@@ -102,14 +102,14 @@ namespace CarInsuramce.Controllers
                 int dui = insuree.DUI;
                 if (dui >=1 )
                 {
-                    Quote *= .25m;
+                    Quote *= 1.25m;
                 }
 
                 int coverage = insuree.CoverageType;
                 if (coverage == "yes")
 
                 {
-                    quote *= .50;
+                    quote *= 1.50;
 
                 }
 
