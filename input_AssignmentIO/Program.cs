@@ -16,11 +16,13 @@ namespace Input_Assignment
             DateTime now = DateTime.Now;
             //this will log text to a file and date and time it was entered
             Console.WriteLine("Pick a number?");
-            string text = File.ReadAllText(@"C:\Users\alpac\Documents\log.txt");
-            File.WriteAllText(@"C:\Users\alpac\Documents\log.txt", "event time");
+            
             int i = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(now);
+            Console.WriteLine("i = now");
             Console.ReadLine();
+            // delete lines 19 and 20
+            //print the 'now' variable to the console.
+            //use AddHours() method to add the user's input to the "now" variable.
         }
     }
 }
