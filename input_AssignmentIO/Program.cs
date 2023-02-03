@@ -18,11 +18,9 @@ namespace Input_Assignment
             Console.WriteLine("Pick a number?");
             
             int i = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("i = now");
+            
+            Console.WriteLine(now.AddHours(i));
             Console.ReadLine();
-            // delete lines 19 and 20
-            //print the 'now' variable to the console.
-            //use AddHours() method to add the user's input to the "now" variable.
-        }
+            }
     }
 }
