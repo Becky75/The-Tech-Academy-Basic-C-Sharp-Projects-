@@ -86,7 +86,7 @@ namespace CarInsuramce.Controllers
 
                 string model = insuree.CarModel;
 
-                if (make == "Porsche" && model == "911 Carrera")
+                if (make == "Porsche")
                 {
                     Quote += 25;
                 }
