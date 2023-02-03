@@ -26,5 +26,12 @@ namespace CarInsuramce.Controllers
 
             return View();
         }
+        public ActionResult Admin()
+        {
+            using (SqlConnection connection = new SqlConnection(connectionstring))
+            {
+
+            }
+        }
     }
 }
