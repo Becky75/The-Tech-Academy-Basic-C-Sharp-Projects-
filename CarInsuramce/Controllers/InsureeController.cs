@@ -57,7 +57,7 @@ namespace CarInsuramce.Controllers
                 {
                     Quote += 100;
                 }
-                else if (age >= 19, age <= 25)
+                else if (age >= 19 && age <= 25)
                 {
                     Quote += 50;
                 }
@@ -78,11 +78,7 @@ namespace CarInsuramce.Controllers
                     Quote += 25;
                 }
                 string make = insuree.CarMake;
-
-                if (make == "Porsche" )
-                {
-                    Quote += 25;
-                }
+                
 
                 string model = insuree.CarModel;
 
@@ -99,17 +95,17 @@ namespace CarInsuramce.Controllers
                     Quote += (10 * ticket);
                 }
 
-                int dui = insuree.DUI;
-                if (dui >=1 )
+                bool dui = insuree.DUI;
+                if (dui == true )
                 {
                     Quote *= 1.25m;
                 }
 
-                int coverage = insuree.CoverageType;
-                if (coverage == "yes")
+                bool coverage = insuree.CoverageType;
+                if (coverage == true)
 
                 {
-                    quote *= 1.50;
+                    Quote *= 1.50m;
 
                 }
 
