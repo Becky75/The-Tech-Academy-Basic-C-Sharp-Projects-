@@ -1,0 +1,31 @@
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\appsettings.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.staticwebassets.runtime.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.exe
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.deps.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.runtimeconfig.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.dll
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\bin\Debug\net6.0\challenge assignment.pdb
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.csproj.AssemblyReference.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.AssemblyInfoInputs.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.AssemblyInfo.cs
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.csproj.CoreCompileInputs.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.RazorAssemblyInfo.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.RazorAssemblyInfo.cs
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets\msbuild.challenge assignment.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets\msbuild.build.challenge assignment.props
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.challenge assignment.props
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.challenge assignment.props
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\scopedcss\bundle\challenge assignment.styles.css
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\scopedcss\projectbundle\challenge assignment.bundle.scp.css
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.dll
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\refint\challenge assignment.dll
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.pdb
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\challenge assignment.genruntimeconfig.cache
+C:\Users\alpac\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects-\challenge assignment\obj\Debug\net6.0\ref\challenge assignment.dll

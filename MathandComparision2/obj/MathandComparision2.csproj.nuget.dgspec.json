@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alpac\\Documents\\GitHub\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj": {}
+    "C:\\Users\\alpac\\source\\repos\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alpac\\Documents\\GitHub\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj": {
+    "C:\\Users\\alpac\\source\\repos\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpac\\Documents\\GitHub\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj",
+        "projectUniqueName": "C:\\Users\\alpac\\source\\repos\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj",
         "projectName": "MathandComparision2",
-        "projectPath": "C:\\Users\\alpac\\Documents\\GitHub\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj",
+        "projectPath": "C:\\Users\\alpac\\source\\repos\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\MathandComparision2.csproj",
         "packagesPath": "C:\\Users\\alpac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpac\\Documents\\GitHub\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\obj\\",
+        "outputPath": "C:\\Users\\alpac\\source\\repos\\The-Tech-Academy-Basic-C-Sharp-Projects-\\MathandComparision2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
