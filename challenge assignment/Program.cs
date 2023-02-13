@@ -1,3 +1,10 @@
+static void Main (string[]args)
+{
+    string date = DateTime.Today.ToShortTimeString();
+    string uName = Console.ReadLine(); 
+}
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
