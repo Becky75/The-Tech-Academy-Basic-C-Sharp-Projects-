@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\bin\Debug\String_and_Integers_Assignment.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\bin\Debug\String_and_Integers_Assignment.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\bin\Debug\String_and_Integers_Assignment.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\obj\Debug\String_and_Integers_Assignment.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\obj\Debug\String_and_Integers_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\obj\Debug\String_and_Integers_Assignment.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\String_and_Integers_Assignment\obj\Debug\String_and_Integers_Assignment.pdb

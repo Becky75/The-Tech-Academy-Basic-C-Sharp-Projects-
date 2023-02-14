@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\bin\Debug\sixPartAssignmant.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\bin\Debug\sixPartAssignmant.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\bin\Debug\sixPartAssignmant.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\obj\Debug\sixPartAssignmant.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\obj\Debug\sixPartAssignmant.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\obj\Debug\sixPartAssignmant.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\sixPartAssignmant\obj\Debug\sixPartAssignmant.pdb

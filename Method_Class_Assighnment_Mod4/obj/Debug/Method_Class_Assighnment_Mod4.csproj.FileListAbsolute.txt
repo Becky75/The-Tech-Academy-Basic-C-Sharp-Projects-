@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\obj\Debug\Method_Class_Assighnment_Mod4.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\obj\Debug\Method_Class_Assighnment_Mod4.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\bin\Debug\Method_Class_Assighnment_Mod4.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\bin\Debug\Method_Class_Assighnment_Mod4.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\bin\Debug\Method_Class_Assighnment_Mod4.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\obj\Debug\Method_Class_Assighnment_Mod4.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Method_Class_Assighnment_Mod4\obj\Debug\Method_Class_Assighnment_Mod4.pdb

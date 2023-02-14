@@ -1,0 +1,7 @@
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\bin\Debug\Consoleassignment_module3.exe.config
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\bin\Debug\Consoleassignment_module3.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\bin\Debug\Consoleassignment_module3.pdb
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\obj\Debug\Consoleassignment_module3.csproj.AssemblyReference.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\obj\Debug\Consoleassignment_module3.csproj.CoreCompileInputs.cache
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\obj\Debug\Consoleassignment_module3.exe
+C:\Users\alpac\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects-\Consoleassignment_module3\obj\Debug\Consoleassignment_module3.pdb
