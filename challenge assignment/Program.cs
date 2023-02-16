@@ -1,6 +1,6 @@
 static void Main (string[]args)
 {
-    string date = DateTime.Today.ToShortTimeString();
+    DateTime dateTime = DateTime.Now();
     string uName = Console.ReadLine(); 
 }
 
